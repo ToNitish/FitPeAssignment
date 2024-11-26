@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web-Automation">
+
+    <!-- Listeners -->
+    <listeners>
+        <listener class-name="ExtentReport.ExtentReporter"/>
+        <listener class-name="ExtentReport.TestFailureListener"/>
+    </listeners>
+
+    <!-- Test Configuration -->
+    <test name="TestSuitFile">
+
+        <classes>
+            <!-- Add your test class here -->
+            <class name="FitPeo.Automation.TestCases.AssignmentTask"/>
+        </classes>
+    </test>
+</suite>
